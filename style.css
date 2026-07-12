@@ -161,3 +161,12 @@ h1,h2,h3{ font-family:var(--display); color:var(--navy-deep); margin:0 0 .4em; l
 .btn:hover{ opacity:.9; text-decoration:none; }
 
 footer.report-footer{ padding:26px 0 50px; font-family:var(--mono); font-size:.74rem; color:var(--ink-soft); text-align:center; border-top:1px solid var(--rule); }
+.profile-photo{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--up);
+  margin: 0 auto 24px;
+  display: block;
+}
